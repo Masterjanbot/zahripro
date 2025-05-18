@@ -1,0 +1,382 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   scroll-behavior: smooth;
+   font-family: "pooppinse";
+
+}
+html{
+   font-size: 60%;
+   overflow-x: hidden;
+
+}
+body{
+   background:rgb(36, 36, 36) ;
+   color:rgba(16, 16, 16, 0.865) ;
+
+}
+
+.header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   padding: 4rem 12%;
+   background-color: rgba(0, 0, 0,0.3);
+   backdrop-filter: blur(10px);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+}
+#menu_icon{
+   font-size: 3.6rem;
+   color:rgb(202, 139, 23) ;
+   display: none;
+
+
+}
+
+.logo{
+   font-size: 3rem;
+   color:wheat ;
+   font-weight: 800;
+   cursor: pointer;
+   
+
+}
+
+.logo:hover{
+   transition: scale(1.1);
+
+
+}
+
+span{
+   color:rgb(39, 156, 39) ;
+}
+.navbar a{
+   font-size: 1.8rem;
+   color: white;
+   margin-left:4rem;
+   font-weight: 500;
+   border-bottom: 3px solid transparent;
+   transition: 0.3s ease;
+
+}
+.navbar a:hover{
+   border-bottom: 3px solid ;
+   color:rgb(22, 174, 68) ;
+}
+
+section{
+   min-height: 100vh;
+   padding: 10rem 12%;
+}
+.home{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 40px;
+}
+.Home-content{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   text-align: right;
+   margin-right:  130px;
+}
+.Home-content h1 {
+   font-size: 8rem;
+   font-weight: 700;
+   margin-top: 1.5rem;
+   line-height: 1;
+   color: antiquewhite;
+}
+
+.Home-content h3{
+   font-size: 4rem;
+   margin: 1rem 0;
+   color: beige;
+}
+
+.Home-content p{
+   font-size: 1.5rem;
+   font-weight: 500;
+   line-height: 1.8;
+   color: aliceblue;
+}
+.Home-img img{
+   width: 22vw;
+   border-radius: 45%;
+   box-shadow: 0px  0px  50px rgb(69, 184, 69);
+   transition: 0.4 ease-in-out;
+   margin-right: 30px;
+   border-radius: 45%;
+}
+.Home-img img:hover:active{
+   box-shadow: 0 0 25px green,
+               0 0 50px green,
+               0 0 100px green;
+}
+.socile-icon a{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   padding: 1rem;
+   background: transparent;
+   /* border:2px solid green ; */
+   border-radius: 50%;
+   color: green;
+   margin: 3rem 0.5rem  ;
+   transition: 0.3s ease;
+}
+
+.socile-icon a:hover{
+   color: rgb(248, 248, 248);
+   /* background-color: rgb(43, 185, 45); */
+   transform: scale(1.2) translateY(-5px);
+   box-shadow: 0 0 25px rgb(61, 174, 12);
+}
+
+.btn{
+   display: inline-block;
+   padding: 1rem 4rem;
+   background:green;
+   box-shadow: 0 0 25px green;
+   border-radius:3rem ;
+   font-size: 1.8rem;
+   /* color:black */
+   border:2px solid transparent;
+   font-weight:600;
+   transition: 0.3s ease-in-out;
+ 
+}
+.btn:hover{
+   transform: scale(1.0s);
+   box-shadow: 0 0 2px rgb(50, 172, 50),
+               0 0 50px green;
+  background-color: aliceblue;      
+}
+.btn-group a:nth-of-type(2){
+  /* background-color: rgb(27, 27, 27);
+  color: green;
+  border:20px solid green;
+  box-shadow: 0 0 2px transparent;  
+  border-radius: 50px;
+*/
+
+display: inline-block;
+padding: 1rem 4rem;
+background:green;
+box-shadow: 0 0 25px green;
+border-radius:3rem ;
+font-size: 1.8rem;
+/* color:black */
+border:2px solid transparent;
+font-weight:600;
+transition: 0.3s ease-in-out;
+
+
+
+  } 
+
+.btn-group a:nth-of-type(2):hover{
+   box-shadow: 0 0 25px rgb(56, 169, 50);
+   background-color: rgb(240, 238, 238);
+}
+.about{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10rem;
+   background-color: green;
+}
+
+.about-img img{
+   width: 20vw;
+   border-radius: 60%;
+   box-shadow: 0 0 40px green;
+   transition: 0.4s ease-in-out;
+
+}
+.about-img img:hover{
+   box-shadow: 0 0 25px green,
+   0 0 50px green,
+   0 0 100px green;
+}
+.about-contact h2{
+   font-size: 7rem;
+   text-align: left;
+
+}
+.about-contact p{
+   font-size: 1.8rem;
+   color: aliceblue;
+}
+
+.about-contact .btn{
+   margin: 3rem 0;
+
+}
+
+::-webkit-scrollbar{
+   width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+   background-color: rgb(34, 155, 34);
+
+}
+::-webkit-scrollbar-track{
+   background-color: rgb(0, 0, 0);
+
+}
+
+
+.heading{
+   text-align: center;
+   font-size: 7rem;
+   margin:5rem;
+}
+.services{
+   background-color: aqua;
+   color:black;
+
+}
+.services h2{
+   color:azure
+}
+
+.services-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px ,1fr));
+   align-items: center;
+   gap:2.5rem;
+}
+
+.services-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: green;
+   height: 400px;
+   border-radius: 3rem;
+   cursor: pointer;
+   border: 5px solid transparent;
+   transition: 0.5s ease-in-out;
+}
+.services-box:hover{
+   background-color: green;
+   color: black;
+   border: 5px solid black;
+   transform: scale(1.03);
+
+}
+
+.services-info{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 5rem;
+
+}
+
+.services-info i{
+   font-size: 8rem;
+
+}
+
+.services-info h4{
+   font-size: 4rem;
+   font-weight: 4rem;
+   margin: 2rem 0;
+   font-weight: 800rem;
+
+}
+.services-info p{
+   font-size: 1.4rem;
+   font-weight: 600;
+   line-height:  1.7;
+}
+
+.contact{
+   background-color: rgb(32, 36, 36);
+}
+
+.contact h2{
+   margin-bottom:3rem ;
+   color: wheat;
+
+}
+.contact form{
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   gap: 3rem;
+   margin: 5rem 0;
+   text-align: center; 
+}
+
+.contact form .input_box input ,
+.contact form  textarea {
+   width: 100%;
+   padding: 2.5rem;
+   font-size: 1.8rem;
+   color: white;
+   background-color: rgb(37, 36, 36);
+   border-radius: 3rem;
+   border: 2px solid rgb(7, 188, 19);
+   margin: 1.5rem 0;
+}
+
+.footer {
+   background-color: rgb(29, 32, 32);
+   padding: 50px 0;
+}
+
+.footer .socile-icon{
+   text-align: center;
+}
+
+.footer ul{
+   text-align: center;
+   font-size: 1.8rem;
+
+}
+
+.footer ul li{
+   display: inline-block;
+   margin-left: 20px;
+
+}
+
+.footer ul li a{
+   color: wheat;
+   border-bottom: 3px solid transparent;
+   transition: 0.3s ease ease-in-out;
+}
+
+.footer ul li a:hover{
+   border-bottom: 3px solid rgb(233, 229, 229);
+}
+
+.footer .copyright{
+   text-align: center;
+   margin-top: 40px;
+   font-size: 20px;
+   color: aliceblue;
+}
+
+
+@media(max-width:124px){
+   
+}
